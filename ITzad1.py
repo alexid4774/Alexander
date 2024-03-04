@@ -41,8 +41,10 @@ for i in range(n):
     if k == 3:
         break
 
+
 Id = input()
-for i in range(n):
-    if st[i].tidd == Id:
-        print("Проект №", st[i].idd)
-print("YES!")
+while Id != "СТОП":
+    for i in range(n):
+        if st[i].tidd == Id:
+            print("Проект №", st[i].idd, "делал(а):", st[i].name, ", он(а) получил(а) оценку -", st[i].score, ".")
+    Id = input()
