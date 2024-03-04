@@ -45,3 +45,4 @@ Id = input()
 for i in range(n):
     if st[i].tidd == Id:
         print("Проект №", st[i].idd)
+print("YES!")
